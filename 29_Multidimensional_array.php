@@ -21,14 +21,15 @@ cellspacing=0>";
       echo"<th>Fees</th>";
     echo "</tr>" ;
 
-    foreach($arr as $row){
-        echo"<tr align = 'center'>";
+foreach($arr as $row){
+    echo"<tr align='center'>";
         foreach($row as $col){
-            echo"<td>$col</td>;
-        }
-     echo "</tr>";
-    }
-            echo"<table>";
+            echo"<td>$col</td>";
+         }
+     echo"</tr>";
+}
+echo"</table>";
+ echo"</center>";
 
 
 ?>
